@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+.ph{
+    background: red;
+    height: 30px;
+    width: 100%;
+}
+.Red_container{
+    position: relative;
+    display: inline-block;
+}
+.src{
+   position: absolute; 
+   display: flex; 
+   width: 100%;
+   align-items: center;
+   padding: 20px;
+}
+.t{
+   background-color: black; 
+   height: 50px;
+   width: 100px; 
+   flex-shrink: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   border: 4px solid #fff;
+}
+.Eh{
+    background: red;
+    height: 30px;
+    width: 100%;
+}
+.sthing{
+    position: absolute;
+    background: #818cf8;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.sthing2{
+    position: absolute;
+    background: #818cf8;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+.parent{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border-top: 4px solid #fff;
+    border-right: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+.parent2{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+.tie{
+    position: absolute;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
